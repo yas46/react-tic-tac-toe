@@ -1,0 +1,107 @@
+.App{
+ text-align: center;
+}
+
+.App-logo {
+     animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#board {
+    display: flex;
+    -webkit-flex-wrap: wrap; /* Safari */
+    flex-wrap: wrap;
+    width: 406px;
+    height: 406px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 60px auto;
+}
+
+.square {
+    display: flex;
+    flex-basis: 130px;
+    height: 130px;
+    font-size: 100px;
+    font-family: arial;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background-color: #c4f8fa;
+    cursor: pointer;
+}
+
+#s1 {
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #477076;
+}
+#s2 {
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #477076;
+}
+#s3 {
+  border-left: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #477076;
+}
+#s4 {
+  border-right: 4px solid;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #477076;
+}
+#s5 {
+  border: 4px solid;
+  border-color: #477076;
+}
+#s6 {
+  border-left: 4px solid;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #477076;
+}
+#s7 {
+  border-right: 4px solid;
+  border-top: 4px solid;
+  border-color: #477076;
+}
+#s8 {
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-top: 4px solid;
+  border-color: #477076;
+}
+#s9 {
+  border-left: 4px solid;
+  border-top: 4px solid;
+  border-color: #477076;
+}
+
+.blue {
+  color: #08507d;
+}
+
+.red {
+  color: #ec574e;
+}
